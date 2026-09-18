@@ -5,21 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 172.67.161.144
-  port: 8443
+  server: 104.21.78.194
+  port: 443
   udp: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 2c0109e7-8d35-4d20-a076-0d4eb9eb444d
   tls: true
-  servername: v2ray1.dozapp.xyz
+  servername: ger.chalghooz.com
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /lMnsZUN4/
+    path: /cloude
     headers:
-      Host: v2ray1.dozapp.xyz
+      Host: ger.chalghooz.com
 proxy-groups:
 - name: PROXIES
   type: select

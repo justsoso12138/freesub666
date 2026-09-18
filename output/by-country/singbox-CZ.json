@@ -5,9 +5,9 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇩🇪 德国 (Germany) 01 (家宽) - xiaohe",
-      "server": "132.243.203.207",
-      "server_port": 8443,
+      "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
+      "server": "89.110.66.154",
+      "server_port": 443,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
         "enabled": true,
@@ -26,14 +26,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇩🇪 德国 (Germany) 01 (家宽) - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇩🇪 德国 (Germany) 01 (家宽) - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
