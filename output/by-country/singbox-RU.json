@@ -4,34 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-      "server": "188.114.96.8",
-      "server_port": 443,
-      "uuid": "513beae3-56e7-4954-a17e-930e06237b27",
-      "tls": {
-        "enabled": true,
-        "server_name": "Cfoi-2FX16G3-8Ry2KdXmCJ.WjESV2ILa3rxBUHpc2NsUGRaChgaWk.WOrkeRS.dev",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vl/piIRdE9WUi24Sn3bb2oSJ?ed=2560",
-        "headers": {
-          "Host": "cfoi-2fx16g3-8ry2kdxmcj.wjesv2ila3rxbuhpc2nsugrachgawk.workers.dev"
-        }
-      }
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+      "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
       "server": "91.240.86.70",
       "server_port": 22443,
       "password": "3f63c86c-ac4a-4900-85cf-4fedf93c2ca5",
@@ -43,7 +17,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
       "server": "46.8.200.91",
       "server_port": 443,
       "uuid": "b8201bab-fa6c-4f6e-b289-b5da660c6f69",
@@ -61,34 +35,12 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-      "server": "45.12.75.242",
-      "server_port": 26424,
-      "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
-      "tls": {
-        "enabled": true,
-        "server_name": "ya.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
-          "short_id": "23103e1e"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"
       ]
     },
     {
@@ -96,9 +48,7 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
