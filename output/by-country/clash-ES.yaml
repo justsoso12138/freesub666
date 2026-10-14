@@ -4,29 +4,29 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇩 印尼 (Indonesia) 01 - xiaohe
-  server: 103.172.197.2
-  port: 29172
+- name: 🇪🇸 西班牙 (Spain) 01 - xiaohe
+  server: 212.227.235.66
+  port: 2053
   udp: true
   type: vless
-  uuid: 3977434d-6a9b-4858-8ced-80326ba5e367
-  flow: xtls-rprx-vision
+  uuid: ead0dd61-d398-40ad-80d6-a0e1e516d7d3
   tls: true
   reality-opts:
-    public-key: pff94OJwuKXnF7_3SJ8KKJuAN4GJtInBlR-kg-4mwzQ
-  servername: aws.amazon.com
+    public-key: 7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk
+    short-id: 29e8dcd2b37aaa7f
+  servername: www.apple.com
   client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇩 印尼 (Indonesia) 01 - xiaohe
+  - 🇪🇸 西班牙 (Spain) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇩 印尼 (Indonesia) 01 - xiaohe
+  - 🇪🇸 西班牙 (Spain) 01 - xiaohe
 rules:
 - MATCH,PROXIES
